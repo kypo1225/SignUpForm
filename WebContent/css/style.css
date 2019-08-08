@@ -1,0 +1,50 @@
+input{
+    outline: 0; /*HTMLのリンクやフォーム部品がフォーカス状態になったときの表示方法*/
+    border: 0px;/*ブラウザ特有のデフォルト枠を消す*/
+    border-bottom: 1px solid #d1d1d1;
+	background: transparent;
+	font-size: 1.2em;
+	width: 100%;
+	padding: 8px;
+
+}
+h1{
+	font-size: 24px;
+	margin: 0;
+}
+
+.content{
+	background-color:  #fff;
+	width:  600px;
+	margin: 10px auto;
+	border: 1px solid #d1d1d1;
+	padding: 59px;
+}
+
+button{
+	width: 100%; /*ボタン幅*/
+	background-color: #2096F3; /*背景色*/
+	color: #fff; /*文字色*/
+	padding: 15px; /*要素内余白*/
+	border-radius: 7px; /*角の丸み*/
+	box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+}
+
+.control{
+	margin: 3em;
+}
+
+label{
+	display: block;
+/* 	margin-bottom: .5em; */
+}
+
+.required{
+	margin-left: .3em; /* 左の余白を0.3em(1文字の30%)に */
+	color: #f33;
+	font-size: .9em;
+	padding: 3px;
+	background-color: #fee;
+	font-weight: bold;
+
+}
